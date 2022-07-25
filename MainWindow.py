@@ -310,7 +310,7 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.label.setText(_translate("MainWindow", "Points Details"))
-        self.projectno.setText(_translate("MainWindow", "Interpolation Visualizer"))
-        self.projectname.setText(_translate("MainWindow", "An interpolation project"))
+        self.projectno.setText(_translate("MainWindow", "Interpolation Visualiser"))
+        self.projectname.setText(_translate("MainWindow", "Interpolation Project"))
         self.file_options_label.setText(_translate("MainWindow", "File Options:"))
 from pyqtgraph import PlotWidget
